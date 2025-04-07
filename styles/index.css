@@ -1,0 +1,288 @@
+@import url("./reset.css");
+@import url("./typography.css");
+@import url("./colors.css");
+
+:root {
+	--padding-content: 100px;
+
+	scrollbar-color: var(--color-blue-400) transparent;
+}
+
+body {
+	background-color: var(--transparent-90);
+	font-family: var(--font-family);
+}
+
+/* Navbar */
+nav {
+	background-color: var(--transparent-90);
+
+	display: flex;
+	justify-content: space-between;
+	align-items: center;
+
+	position: fixed;
+	padding-inline: var(--padding-content);
+
+	height: 65px;
+	width: 100%;
+
+	z-index: 5;
+}
+
+nav .strike {
+    text-decoration: line-through;
+}
+
+nav .strike:hover {
+    cursor: not-allowed;
+    color: white;
+}
+
+nav ul {
+	display: flex;
+
+	gap: 1rem;
+	list-style: none;
+}
+
+/* Jumper */
+#jumper a {
+	background-color: var(--color-blue-400);
+	position: fixed;
+	bottom: 0;
+	right: 0;
+	margin: 2rem;
+	padding: 1rem;
+	border-radius: 100%;
+	color: white;
+	z-index: 3;
+}
+
+#jumper a:hover {
+	transition: 100ms linear;
+	background-color: var(--color-blue-500);
+}
+
+/* Product Info */
+#productInfo {
+	background-color: var(--dark-gray);
+	padding: 1rem;
+	z-index: 4;
+	position: fixed;
+	top: 65px;
+	right: -450px;
+
+	height: 100%;
+	width: 450px;
+}
+
+#productInfo * {
+	color: white;
+}
+
+#productInfo .thumbnail {
+	width: 450px;
+	height: 250px;
+}
+
+#productInfo .genres {
+	color: lightgray;
+	margin-bottom: .4rem;
+}
+
+#productInfo .price {
+	font-size: 24px;
+}
+
+#productInfo button {
+	font-weight: 600;
+	padding: .5rem;
+	border-radius: .25rem;
+}
+
+#productInfo .cart {
+	background-color: var(--color-blue-400);
+}
+
+#productInfo .cart:hover {
+	transition: 100ms linear;
+	background-color: var(--color-blue-500);
+}
+
+#productInfo .star {
+	background-color: var(--color-green-400);
+}
+
+#productInfo .star:hover {
+	transition: 100ms linear;
+	background-color: var(--color-green-500);
+}
+
+#productInfo .display {
+    max-height: 300px;
+    overflow-y: auto;
+}
+
+/* Main */
+.grid-content {
+	display: grid;
+	grid-template-columns: [full-start] var(--padding-content) [content-start] 1fr [content-end] var(--padding-content) [full-end];
+}
+
+.grid-content section {
+	padding-inline: var(--padding-content);
+
+	grid-column: full;
+}
+
+/* Sections */
+section {
+	background-repeat: no-repeat;
+	background-size: cover;
+	background-position: center;
+
+	width: 100%;
+}
+
+/* Hero */
+#hero {
+	background-image: url("../assets/jpg/image2.jpg");
+	mask-image: linear-gradient(to bottom, #000 40%, transparent 100%);
+
+	display: flex;
+	justify-content: center;
+	align-items: center;
+
+	height: 100vh;
+
+	padding-top: 65px;
+}
+
+#hero .search {
+	display: flex;
+	gap: 1rem;
+}
+
+#hero .search * {
+	font-size: xx-large;
+	border-radius: .5rem;
+}
+
+#hero .search button {
+	background-color: var(--color-blue-400);
+
+	border: none;
+	padding-inline: 2rem;
+	padding-block: .5rem;
+
+	color: white;
+}
+
+#hero .search button:hover {
+	background-color: var(--color-blue-500);
+	transition: 100ms linear;
+}
+
+/* Featured */
+#featured {
+	padding-top: 65px;
+	padding-inline: 0;
+}
+
+#featured article {
+	background-color: var(--transparent-20);
+	overflow: visible;
+	padding-top: 25px;
+    padding-bottom: 40px;
+	padding-inline: 100px;
+}
+
+#stats {
+	background-image: url("../assets/jpg/image5.jpg");
+
+	padding-block: 300px;
+}
+
+#stats article {
+	display: flex;
+	justify-content: center;
+	gap: 3rem;
+}
+
+#stats .container {
+	border-radius: 1rem;
+	display: flex;
+	justify-content: center;
+	padding-block: 100px;
+	padding-inline: 50px;
+	gap: 4rem;
+}
+
+#stats p {
+	text-align: center;
+	font-weight: 700;
+	display: block;
+	color: white;
+	font-size: 48px;
+	width: auto;
+}
+
+/* News */
+#news {
+	background-image: url("../assets/png/image3.png");
+
+	padding-block: 65px;
+	padding-inline: 100px;
+}
+
+#news article {
+    display: flex;
+    margin-top: 1rem;
+    flex-direction: column;
+    padding: 1rem;
+	background-color: var(--transparent-70);
+}
+
+/* Footer */
+footer {
+    background-color: #090909;
+    padding-inline: var(--padding-content);
+    padding-block: 50px;
+}
+
+footer a {
+    color: grey;
+}
+
+footer div {
+    gap: 10rem;
+    display: flex;
+    justify-content: center;
+    width: 100%;
+    margin-bottom: 50px;
+}
+
+footer ul {
+    list-style: none;
+}
+
+footer .subtitle {
+    text-align: center;
+}
+
+input {
+	background-color: var(--transparent-70);
+
+	border: none;
+	padding-inline: 1rem;
+	padding-block: .5rem;
+
+	color: white;
+	outline: 2px solid transparent;
+}
+
+input:focus {
+    transition: 100ms linear;
+	outline: 2px solid var(--color-blue-400)
+}

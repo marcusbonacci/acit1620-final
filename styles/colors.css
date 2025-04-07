@@ -1,0 +1,18 @@
+:root {
+    /* Colors */
+    /* --color-blue-400: rgb(123, 77, 158);
+    --color-blue-500: rgb(133, 64, 167); */
+    --color-blue-400: rgb(14, 158, 236);
+    --color-blue-500: rgb(19, 131, 192);
+
+    --color-green-400: #2b9f71;
+    --color-green-500: #227b58;
+
+    --transparent-10: rgba(0, 0, 0, .1);
+    --transparent-20: rgba(0, 0, 0, .2);
+    --transparent-50: rgba(0, 0, 0, .5);
+    --transparent-70: rgba(0, 0, 0, .7);
+    --transparent-90: rgba(0, 0, 0, .9);
+
+    --dark-gray: rgb(36, 36, 36);
+}

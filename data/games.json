@@ -1,0 +1,147 @@
+[
+    {
+        "title": "Factorio",
+        "subtitle": "",
+        "genres": ["Automation", "Building"],
+        "price": 45.00,
+        "description": "Factorio is a game in which you build and maintain factories. You will be mining resources, researching technologies, building infrastructure, automating production and fighting enemies. ",
+        "titleImage": "factorio-title.png",
+        "images": ["factorio-image-1.jpg", "factorio-image-2.jpg", "factorio-image-3.png"]
+    },
+    {
+        "title": "Metro Exodus",
+        "subtitle": "",
+        "genres": ["FPS", "Horror", "Immersive"],
+        "price": 42.99,
+        "description": "Metro Exodus is an epic, story-based first-person shooter of AAA Games, which combines deadly fights and stealth with exploration and survival horror in one of the most captivating game worlds ever created.",
+        "titleImage": "metro-exodus-title.jpg",
+        "images": []
+    },
+    {
+        "title": "Metro Sam's Story",
+        "subtitle": "",
+        "genres": ["FPS", "Horror", "Immersive"],
+        "price": 14.99,
+        "description": "Sam has long dreamed of returning to his homeland, and maybe finding his family alive. The prospect seemed impossible in the darkened tunnels of the Metro, but when the Spartans discovered that Moscow was not the only city left alive after the war, holding out hope didn’t feel so foolish anymore.",
+        "titleImage": "metro-exodus-dlc1-title.jpg",
+        "images": []
+    },
+    {
+        "title": "Halo 3: ODST",
+        "subtitle": "",
+        "genres": ["FPS", "Story", "Action"],
+        "price": 12.99,
+        "description": "Halo 3: ODST comes to PC. Experience the events preceding Halo 3 through the eyes of Orbital Drop Shock Troopers (ODST). Isolated and vulnerable, use stealth and precision to survive the dangers of the Covenant occupation in a gripping new take on combat in the Halo universe.",
+        "titleImage": "h3odst-title.webp",
+        "images": []
+    },
+    {
+        "title": "Stardew Valley",
+        "subtitle": "",
+        "genres": ["Farming", "Simulation"],
+        "price": 16.99,
+        "description": "You've inherited your grandfather's old farm plot in Stardew Valley. Armed with hand-me-down tools and a few coins, you set out to begin your new life. Can you learn to live off the land and turn these overgrown fields into a thriving home?",
+        "titleImage": "stardew-title.png",
+        "images": []
+    },
+    {
+        "title": "Terraria",
+        "subtitle": "",
+        "genres": ["Exploration", "RPG"],
+        "price": 13.99,
+        "description": "Dig, fight, explore, build! Nothing is impossible in this action-packed adventure game. Four Pack also available!",
+        "titleImage": "terraria-title.png",
+        "images": []
+    },
+    {
+        "title": "REKA",
+        "subtitle": "",
+        "genres": ["Exploration", "RPG"],
+        "price": 13.99,
+        "description": "Channel your inner witch! Build your cozy chicken-legged hut, practice witchcraft, and forage for ingredients in autumnal woodlands. Solve quests & uncover the great mysteries of the legendary witch Baba Jaga.",
+        "titleImage": "reka-title.png",
+        "images": []
+    },
+    {
+        "title": "Half-Life ALYX",
+        "subtitle": "",
+        "genres": ["VR", "FPS", "Story"],
+        "price": 77.99,
+        "description": "Half-Life: Alyx is Valve’s VR return to the Half-Life series. It’s the story of an impossible fight against a vicious alien race known as the Combine, set between the events of Half-Life and Half-Life 2. Playing as Alyx Vance, you are humanity’s only chance for survival.",
+        "titleImage": "halflife-alyx-title.png",
+        "images": []
+    },
+    {
+        "title": "The Elder Scrolls Online",
+        "subtitle": "",
+        "genres": ["RPG", "Adventure"],
+        "price": 24.99,
+        "description": "Join over 22 million players in the award-winning online multiplayer RPG and experience limitless adventure in a persistent Elder Scrolls world. Battle, craft, steal, or explore, and combine different types of equipment and abilities to create your own style of play. No game subscription required.",
+        "titleImage": "eso-title.jpg",
+        "images": []
+    },
+    {
+        "title": "Cities: Skylines",
+        "subtitle": "",
+        "genres": ["Building", "Simulation"],
+        "price": 39.99,
+        "description": "Cities: Skylines is a modern take on the classic city simulation. The game introduces new game play elements to realize the thrill and hardships of creating and maintaining a real city whilst expanding on some well-established tropes of the city building experience.",
+        "titleImage": "city-skylines-title.png",
+        "images": []
+    },
+    {
+        "title": "Crying Suns",
+        "subtitle": "",
+        "genres": ["Strategy", "Rougelite"],
+        "price": 28.99,
+        "description": "Crying Suns is a tactical rogue-lite that puts you in the role of a space fleet commander as you explore a mysteriously fallen empire. In this story rich experience inspired by Dune and Foundation, each successful run will uncover the truth about the Empire... and yourself as well.",
+        "titleImage": "crying-suns-title.png",
+        "images": []
+    },
+    {
+        "title": "Elden Ring",
+        "subtitle": "",
+        "genres": ["Souls-like", "RPG"],
+        "price": 79.99,
+        "description": "The Lands Between are part of a vast continent where magnificent open fields and huge dungeons with complex and three-dimensional designs are seamlessly connected. As you explore, the joy of discovering unknown and overwhelming threats awaits you.",
+        "titleImage": "elden-ring-title.jpg",
+        "images": []
+    },
+    {
+        "title": "Halo: Reach",
+        "subtitle": "",
+        "genres": ["FPS", "Story", "Action"],
+        "price": 12.99,
+        "description": "Experience the heroic story of Noble Team, a group of Spartans, who through great sacrifice and courage, saved countless lives in the face of impossible odds.",
+        "titleImage": "halo-reach-title.jpg",
+        "images": []
+    },
+    {
+        "title": "Command & Conquer",
+        "subtitle": "",
+        "genres": ["RTS", "Action"],
+        "price": 20.99,
+        "description": "Command & Conquer and Red Alert are both remastered in 4K by the former Westwood Studios team members. Includes all 3 expansions, rebuilt multiplayer, a modernized UI, Map Editor, bonus footage gallery, and over 7 hours of remastered music.",
+        "titleImage": "command-and-conquer-title.jpg",
+        "images": []
+    },
+    {
+        "title": "Metro Awakening",
+        "subtitle": "",
+        "genres": ["VR", "Horror", "Story"],
+        "price": 52.99,
+        "description": "Metro Awakening is a story-driven first person adventure built for VR that blends atmospheric exploration, stealth and combat in the most immersive Metro experience yet. Don your gas mask, brave the crippling radiation and venture into the depths of the Metro where threats haunt your every move...",
+        "titleImage": "metro-awakening-title.jpg",
+        "images": []
+    },
+    {
+        "title": "The Long Dark",
+        "subtitle": "",
+        "genres": ["Survival"],
+        "price": 25.99,
+        "description": "THE LONG DARK is a thoughtful, exploration-survival experience that challenges solo players to think for themselves as they explore an expansive frozen wilderness in the aftermath of a geomagnetic disaster. There are no zombies -- only you, the cold, and all the threats Mother Nature can muster.",
+        "titleImage": "thelongdark-title.jpg",
+        "images": []
+    }
+]
+

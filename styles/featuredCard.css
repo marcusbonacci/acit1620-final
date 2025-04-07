@@ -1,0 +1,50 @@
+@import url("./reset.css");
+@import url("./typography.css");
+
+.card {
+    width: 350px;
+    height: 80%;
+    z-index: 3;
+    margin-block: +20px;
+    flex: 0 0 auto;
+    transition: 100ms linear;
+}
+
+.card:hover {
+    transition: 100ms linear;
+    transform: scale(1.075);
+}
+
+.card > * {
+    color: white;
+}
+
+.card img {
+    width: 350px;
+    height: 200px;
+    margin-bottom: .3rem;
+}
+
+.card .title {
+    font-size: x-large;
+}
+
+.card .info {
+    display: flex;
+    justify-content: space-between;
+}
+
+.card .price {
+    background-color: var(--color-blue-400);
+    height: 100%;
+    font-weight: 600;
+    padding: .25rem;
+    border-radius: .25rem;
+}
+
+.card .genres {
+    display: flex;
+    gap: .5rem;
+
+    list-style: none;
+}
