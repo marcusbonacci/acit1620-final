@@ -124,27 +124,15 @@ nav ul {
 }
 
 #productInfo .star:hover {
-	transition: 100ms linear;
 	cursor: not-allowed;
-	background-color: var(--color-green-500);
+	/* transition: 100ms linear;
+	background-color: var(--color-green-500); */
 }
 
 #productInfo .display {
     max-height: 300px;
     overflow-y: auto;
 }
-
-/* Main */
-/* .grid-content {
-	display: grid;
-	grid-template-columns: [full-start] var(--padding-content) [content-start] 1fr [content-end] var(--padding-content) [full-end];
-} */
-
-/* .grid-content section {
-	padding-inline: var(--padding-content);
-
-	grid-column: full;
-} */
 
 /* Sections */
 section {
