@@ -4,9 +4,8 @@ class FeaturedCard extends HTMLElement {
     }
     
     connectedCallback() {
-        const data = this.data
+        const data = this.data;
         const shadow = this.attachShadow({mode: "open"});
-
         const div = document.createElement("div");
         const image = document.createElement("img");
         const info = document.createElement("div");
@@ -29,15 +28,15 @@ class FeaturedCard extends HTMLElement {
         data.genres.forEach(genreTag => {
             const genre = document.createElement("li");
 
-            genre.className = "subtitle"
+            genre.className = "subtitle";
 
             genre.textContent = genreTag;
             genres.appendChild(genre);
-        })
+        });
 
         const compStyle = document.createElement("link");
         compStyle.setAttribute("rel", "stylesheet");
-        compStyle.setAttribute("href", "./styles/featuredCard.css")
+        compStyle.setAttribute("href", "./styles/featuredCard.css");
 
         shadow.appendChild(compStyle);
         shadow.appendChild(div);
@@ -50,4 +49,4 @@ class FeaturedCard extends HTMLElement {
         info.appendChild(price);
     }
 }
-customElements.define("featured-card", FeaturedCard)
+customElements.define("featured-card", FeaturedCard);

@@ -12,6 +12,6 @@ class FeaturedDisplay extends HTMLElement {
             gap: 1rem;
             padding-left: 20px;
         `
-    }
+    };
 }
-customElements.define("featured-display", FeaturedDisplay)
+customElements.define("featured-display", FeaturedDisplay);
