@@ -59,18 +59,23 @@ function display(element) {
         <h2 class="title">${data.title}</h2>
         <p class="genres">${data.genres}</p>
         <p class="price">$${data.price}</p>
-        <button class="cart">Add to Cart</button>
+        <button id="cart">Add to Cart</button>
         <button class="star">Star</button>
+        <button id="close">Close</button>
         <h2 class="about">About this product</h3>
         <div class="display">
             <p>"${data.description}"</p>
         </div>
     `;
 
-    const closeButton = featuredInfo.getElementsByClassName("cart");
-    closeButton[0].addEventListener("click", function () {
+    const cartButton = featuredInfo.querySelector("#cart");
+    cartButton.addEventListener("click", function () {
         close(featuredInfo);
-    })
+    });
+    const closeButton = featuredInfo.querySelector("#close");
+    closeButton.addEventListener("click", function () {
+        close(featuredInfo);
+    });
     open(featuredInfo);
 };
 

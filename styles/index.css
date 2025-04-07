@@ -96,19 +96,28 @@ nav ul {
 }
 
 #productInfo button {
+	transition: 100ms linear;
 	font-weight: 600;
 	padding: .5rem;
 	border-radius: .25rem;
 }
 
-#productInfo .cart {
+#cart {
 	background-color: var(--color-blue-400);
 }
 
-#productInfo .cart:hover {
-	transition: 100ms linear;
+#cart:hover {
 	background-color: var(--color-blue-500);
 }
+
+#close {
+	background-color: red;
+}
+
+#close:hover {
+	background-color: rebeccapurple;
+}
+
 
 #productInfo .star {
 	background-color: var(--color-green-400);
@@ -116,6 +125,7 @@ nav ul {
 
 #productInfo .star:hover {
 	transition: 100ms linear;
+	cursor: not-allowed;
 	background-color: var(--color-green-500);
 }
 
