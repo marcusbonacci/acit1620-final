@@ -2,9 +2,9 @@
 @import url("./typography.css");
 
 .card {
+    z-index: 3;
     width: 350px;
     height: 80%;
-    z-index: 3;
     margin-block: +20px;
     flex: 0 0 auto;
     transition: 100ms linear;

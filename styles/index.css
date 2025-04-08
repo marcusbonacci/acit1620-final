@@ -15,19 +15,15 @@ body {
 
 /* Navbar */
 nav {
-	background-color: var(--transparent-90);
-
+	z-index: 5;
+	position: fixed;
 	display: flex;
 	justify-content: space-between;
 	align-items: center;
-
-	position: fixed;
-	padding-inline: var(--padding-content);
-
-	height: 65px;
 	width: 100%;
-
-	z-index: 5;
+	height: 65px;
+	padding-inline: var(--padding-content);
+	background-color: var(--transparent-90);
 }
 
 nav .strike {
@@ -41,14 +37,13 @@ nav .strike:hover {
 
 nav ul {
 	display: flex;
-
 	gap: 1rem;
 	list-style: none;
 }
 
 /* Jumper */
 #jumper a {
-	background-color: var(--color-blue-400);
+	z-index: 3;
 	position: fixed;
 	bottom: 0;
 	right: 0;
@@ -56,25 +51,24 @@ nav ul {
 	padding: 1rem;
 	border-radius: 100%;
 	color: white;
-	z-index: 3;
+	background-color: var(--color-blue-400);
 }
 
 #jumper a:hover {
-	transition: 100ms linear;
 	background-color: var(--color-blue-500);
+	transition: 100ms linear;
 }
 
 /* Product Info */
 #productInfo {
-	background-color: var(--dark-gray);
-	padding: 1rem;
 	z-index: 4;
 	position: fixed;
 	top: 65px;
 	right: -450px;
-
-	height: 100%;
 	width: 450px;
+	height: 100%;
+	padding: 1rem;
+	background-color: var(--dark-gray);
 }
 
 #productInfo * {
@@ -87,8 +81,8 @@ nav ul {
 }
 
 #productInfo .genres {
-	color: lightgray;
 	margin-bottom: .4rem;
+	color: lightgray;
 }
 
 #productInfo .price {
@@ -96,10 +90,10 @@ nav ul {
 }
 
 #productInfo button {
-	transition: 100ms linear;
-	font-weight: 600;
 	padding: .5rem;
 	border-radius: .25rem;
+	font-weight: 600;
+	transition: 100ms linear;
 }
 
 #cart {
@@ -125,8 +119,6 @@ nav ul {
 
 #productInfo .star:hover {
 	cursor: not-allowed;
-	/* transition: 100ms linear;
-	background-color: var(--color-green-500); */
 }
 
 #productInfo .display {
@@ -136,25 +128,21 @@ nav ul {
 
 /* Sections */
 section {
+	width: 100%;
 	background-repeat: no-repeat;
 	background-size: cover;
 	background-position: center;
-
-	width: 100%;
 }
 
 /* Hero */
 #hero {
-	background-image: url("../assets/jpg/image2.jpg");
-	mask-image: linear-gradient(to bottom, #000 40%, transparent 100%);
-
 	display: flex;
 	justify-content: center;
 	align-items: center;
-
 	height: 100vh;
-
 	padding-top: 65px;
+	background-image: url("../assets/jpg/image2.jpg");
+	mask-image: linear-gradient(to bottom, #000 40%, transparent 100%);
 }
 
 #hero .search {
@@ -169,11 +157,9 @@ section {
 
 #hero .search button {
 	background-color: var(--color-blue-400);
-
-	border: none;
 	padding-inline: 2rem;
 	padding-block: .5rem;
-
+	border: none;
 	color: white;
 }
 
@@ -185,21 +171,20 @@ section {
 /* Featured */
 #featured {
 	padding-top: 65px;
+	padding-bottom: 40px;
 	padding-inline: 0;
+	background-color: var(--transparent-20);
 }
 
 #featured article {
-	background-color: var(--transparent-20);
-	overflow: visible;
 	padding-top: 25px;
-    /* padding-bottom: 40px; */
 	padding-inline: 100px;
+	overflow: visible;
 }
 
 #stats {
-	background-image: url("../assets/jpg/image5.jpg");
-
 	padding-block: 300px;
+	background-image: url("../assets/jpg/image5.jpg");
 }
 
 #stats article {
@@ -209,35 +194,34 @@ section {
 }
 
 #stats .container {
-	border-radius: 1rem;
 	display: flex;
 	justify-content: center;
+	gap: 4rem;
 	padding-block: 100px;
 	padding-inline: 50px;
-	gap: 4rem;
+	border-radius: 1rem;
 }
 
 #stats p {
-	text-align: center;
-	font-weight: 700;
 	display: block;
+	width: auto;
 	color: white;
 	font-size: 48px;
-	width: auto;
+	font-weight: 700;
+	text-align: center;
 }
 
 /* News */
 #news {
 	background-image: url("../assets/png/image3.png");
-
 	padding-block: 65px;
 	padding-inline: 100px;
 }
 
 #news article {
     display: flex;
-    margin-top: 1rem;
     flex-direction: column;
+    margin-top: 1rem;
     padding: 1rem;
 	background-color: var(--transparent-70);
 }
@@ -254,9 +238,9 @@ footer a {
 }
 
 footer div {
-    gap: 10rem;
     display: flex;
     justify-content: center;
+    gap: 10rem;
     width: 100%;
     margin-bottom: 50px;
 }
@@ -270,17 +254,15 @@ footer .subtitle {
 }
 
 input {
-	background-color: var(--transparent-70);
-
 	border: none;
 	padding-inline: 1rem;
 	padding-block: .5rem;
-
+	background-color: var(--transparent-70);
 	color: white;
 	outline: 2px solid transparent;
 }
 
 input:focus {
+	outline: 2px solid var(--color-blue-400);
     transition: 100ms linear;
-	outline: 2px solid var(--color-blue-400)
 }
